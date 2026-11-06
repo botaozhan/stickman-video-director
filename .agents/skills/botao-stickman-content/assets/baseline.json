@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "resourceScope": "Optional local historical evidence only. Referenced completed videos, subtitles, covers and projects are not distributed with GitHub and are not required to initialize a new project.",
+  "subtitleAuthority": "Second film latest approved Botao Bilingual Subtitle Preset v1.0, not old 46/32px",
+  "previewGate": "Each new film requires current preview approval",
+  "records": [
+    {
+      "id": "01-fish-oil-1000mg",
+      "project": "autopilot-work/pilot-02/project.json",
+      "video": "autopilot-work/pilot-02/subtitle-revision-v1/Pilot-01-Fish-Oil-1000mg-subtitle-v1.mp4",
+      "subtitle": "autopilot-work/pilot-02/subtitle-revision-v1/Pilot-01-subtitle-v1.ass",
+      "cover": "autopilot-work/pilot-02/output/Pilot-02-cover-1080x1920.png",
+      "duration_seconds": 58.7,
+      "shots": 10,
+      "subtitles": 34,
+      "shirt": "#A8D9C7",
+      "video_sha256": "33d9222c209299f3f01610a946cca8fbaeb66e3a56aa538e2c167336a8a4916d",
+      "subtitle_sha256": "4746d84c6c5c96845f541e746c0a60e731418f9b77377a6ac025042f9265b2c1",
+      "cover_sha256": "eb23fa00a8f1de3845b27e588fe54b8439a8a5241069e8f4b2b1d7ac9700d6d3"
+    },
+    {
+      "id": "02-fish-oil-value",
+      "project": "autopilot-work/fish-oil-value-20261105/project.json",
+      "video": "autopilot-work/fish-oil-value-20261105/subtitle-revision-v1/fish-oil-value-full-subtitle-v1.mp4",
+      "subtitle": "autopilot-work/fish-oil-value-20261105/subtitle-revision-v1/fish-oil-value-subtitle-v1.ass",
+      "cover": "autopilot-work/fish-oil-value-20261105/output/fish-oil-value-cover.png",
+      "duration_seconds": 58.533333,
+      "shots": 13,
+      "subtitles": 35,
+      "shirt": "#F2AD68",
+      "video_sha256": "b7bb727f96848a3419213c7d4a297ee731f214870655d6825194d1149b893245",
+      "subtitle_sha256": "9b8a350e5d22d39bf709555195c09c05b2480d08e69f91bd7b94ac7dc4f0a705",
+      "cover_sha256": "f08c1443861ed48697d8cd489317948a26a36fb7787b8db45221336ad7f7e21f"
+    }
+  ],
+  "unverified": [
+    "Unattended free TTS API",
+    "Automatic forced speech alignment",
+    "New-chat end-to-end production with these new helpers"
+  ],
+  "renderer": "skills/directing-stickman-videos/scripts/autopilot.mjs"
+}

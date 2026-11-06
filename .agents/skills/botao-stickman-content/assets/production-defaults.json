@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "style": "B1 Cute project variant",
+  "targetSeconds": 60,
+  "preferredRangeSeconds": [55, 65],
+  "fps": 30,
+  "renderSize": [1080, 1680],
+  "outputSize": [1080, 1920],
+  "padding": {"top": 80, "bottom": 160, "color": "#FAF8EE"},
+  "voice": {"provider": "TTSMaker free web", "id": "204", "name": "潇潇", "settings": "service defaults", "speedChange": false, "lead": 0.2, "tail": 0.3, "unattendedApiVerified": false},
+  "character": {"master": "character.mjs", "defaultShirt": "#A8D9C7", "approvedAlternateShirt": "#F2AD68", "hairStrands": 3},
+  "subtitles": {"preset": "botao-bilingual-subtitle-preset-v1.0.json", "chineseFontSize": 78, "englishFontSize": 50, "chineseY": 1660, "englishY": 1750, "maxWidth": 990, "forcedAlignmentVerified": false},
+  "previewSeconds": [10, 15],
+  "previewApprovalRequired": true,
+  "outputRoot": "autopilot-work",
+  "cover": {"size": [1080, 1920], "account": "@精力架构师", "background": "#FAF8EE", "title": "#28312D", "emphasis": "#FF674D"},
+  "newPaidServiceApprovalRequired": true,
+  "autoPublish": false,
+  "autoCommit": false,
+  "originalRuntime": "skills/directing-stickman-videos/scripts/autopilot.mjs"
+}

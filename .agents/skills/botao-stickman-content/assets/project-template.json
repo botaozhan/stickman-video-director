@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "style": "B1",
+  "width": 1080,
+  "height": 1680,
+  "fps": 30,
+  "captionSize": 58,
+  "voice": {"path": "narration-ttsmaker-204.mp3", "lead": 0.2, "tail": 0.3},
+  "captions": [],
+  "shots": [],
+  "sfx": []
+}

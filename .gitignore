@@ -6,3 +6,9 @@ node_modules/
 __pycache__/
 *.pyc
 autopilot-work/
+
+# Local exported productions and unpacked delivery bundle; keep files on disk.
+/Pilot-01-Fish-Oil-B1-1080x1920-v2.mp4
+/Pilot-02-Fish-Oil-bilingual-1080x1920.mp4
+/fish-oil-value-project-and-materials.zip
+/fish-oil-value-project-and-materials/
