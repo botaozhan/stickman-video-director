@@ -1,0 +1,63 @@
+{
+  "name": "Botao Bilingual Subtitle Preset v1.0",
+  "status": "approved",
+  "reference": {
+    "type": "verified_numeric_layout",
+    "description": "User-approved encoded subtitle preview; the verified font, size, color, position and spacing values below are authoritative. No reference image is bundled or required."
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "chinese": {
+    "font": "Microsoft YaHei",
+    "fontSize": 78,
+    "color": "#000000",
+    "bold": true,
+    "alignment": "top-center",
+    "x": 540,
+    "y": 1660
+  },
+  "english": {
+    "font": "Arial",
+    "fontSize": 50,
+    "color": "#505050",
+    "bold": false,
+    "alignment": "top-center",
+    "x": 540,
+    "y": 1750
+  },
+  "layout": {
+    "anchorSeparationPx": 90,
+    "subtitleRegion": {
+      "x": 45,
+      "y": 1640,
+      "width": 990,
+      "height": 180
+    },
+    "nominalBottomSafeMarginPx": 120,
+    "actualInkBounds": {
+      "example": "两瓶都是100粒。",
+      "chinese": {
+        "left": 310,
+        "top": 1673,
+        "right": 731,
+        "bottom": 1729
+      },
+      "note": "Measured on approved 1080x1920 encoded frame; other glyphs vary."
+    },
+    "maxWidthPx": 990
+  },
+  "wrapping": {
+    "preferred": "One Chinese line plus one English line; preserve existing cue times and words",
+    "overflow": "Measure rendered glyph width against 990px. Keep one Chinese and one English line where possible. For overflow, break at natural semantic boundaries after checking speech; preserve wording and cue timing on subtitle-only revisions when feasible. Do not silently shrink fonts. Multi-line layouts require collision review; do not cover scene content."
+  },
+  "scaling": {
+    "rule": "Scale font sizes, coordinates, spacing and margins uniformly by outputWidth/1080 for same 9:16 ratio; recheck glyph bounds and content collisions; no stretching"
+  },
+  "approval": {
+    "user_message": "批准",
+    "scope": "Subtitle preview approved; full export and default preset authorized",
+    "preview_sha256": "6264bf525cb7f7d6acf608cc7d422184176a96bdb8db16a25bfd22d922789682"
+  }
+}
